@@ -27,3 +27,34 @@ body{
     padding: 10px;
     width: 1200px;
 }
+#group{
+    border: solid 2px aqua;
+}
+
+
+@media only screen and (min-width: 300px) {
+    #addInput{
+        width: 100%; 
+    }
+
+    .header {
+        font-size: 18px;
+    }
+
+    #group {
+        border-width: 2px; 
+    }
+}
+@media only screen and (min-width: 720px) {
+    #addInput {
+        width: 100%; 
+    }
+
+    .header {
+        font-size: 35px;
+    }
+
+    #group {
+        border-width: 2px; 
+    }
+}
